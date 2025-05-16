@@ -5,7 +5,7 @@ It's a premium model with limited requests.
 
 Also, I've completed expense calculator with:
 - Cursor premium claude-3.5-sonnet
-- Cursor premium gpt 4.0
+- Cursor premium gpt 4.0-o
 - Junie (JetBrains)
 
 Claude-3.5-sonnet did the best job. 
