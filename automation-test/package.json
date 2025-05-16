@@ -1,0 +1,28 @@
+{
+  "name": "fakestore-api-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for Fake Store API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:report": "jest --json --outputFile=report.json"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Fake Store API Test Report",
+          "outputPath": "test-report.html",
+          "includeFailureMsg": true
+        }
+      ]
+    ]
+  }
+} 

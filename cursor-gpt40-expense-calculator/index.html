@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Calculator</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        button { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+<h1>Expense Calculator</h1>
+<table id="expenseTable">
+    <thead>
+    <tr>
+        <th>Category</th>
+        <th>Amount ($)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Groceries</td>
+        <td>15000</td>
+    </tr>
+    <tr>
+        <td>Rent</td>
+        <td>40000</td>
+    </tr>
+    <tr>
+        <td>Transportation</td>
+        <td>5000</td>
+    </tr>
+    <tr>
+        <td>Entertainment</td>
+        <td>10000</td>
+    </tr>
+    <tr>
+        <td>Communication</td>
+        <td>2000</td>
+    </tr>
+    <tr>
+        <td>Gym</td>
+        <td>3000</td>
+    </tr>
+    </tbody>
+</table>
+<button onclick="calculateExpenses()">Calculate</button>
+<div id="results">
+    <p>Total amount of expenses: <span id="total"></span></p>
+    <p>Average daily expense: <span id="average"></span></p>
+    <p>Top 3 largest expenses: <span id="top3"></span></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
