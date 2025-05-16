@@ -14,4 +14,5 @@ GPT 4.0-o did the worst.
 
 Also, Junie didn't create any warnings in a project. Cursor created seven warnings.
 
+> [!NOTE]  
 >Considering that when the fast queries for premium models expire, the quality will be worse than Junie's, I would prefer to continue using Junie.
